@@ -1,5 +1,5 @@
 # Nomad Paper
-Accounting software that automatically creates the Dutch VAT report "Aangifte Omzetbelasting" for self-employed individuals who receive work from within and outside the Netherlands
+Accounting software that automatically calcurates the Dutch VAT report "Aangifte Omzetbelasting" for self-employed individuals who receive work from within and outside the Netherlands
 
 
 ## What can do
