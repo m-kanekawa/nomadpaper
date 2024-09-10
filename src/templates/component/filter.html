@@ -1,0 +1,11 @@
+{% load order_tag %}
+<form id="form_filter" method="get">
+  <select class='form-select' id="filter" name="filter">
+    <option value="ANY"   {{ filter|select:'ANY' }}>Any period</option>
+    <option value="QT"    {{ filter|select:'QT' }}>This Quater</option>
+    <option value="QP"    {{ filter|select:'QP' }}>Previous Quater</option>
+    {% for y in years %}
+    <option value="{{y}}" {{ filter|select:y }}>{{y}}</option>
+    {% endfor %}
+  </select>
+</form>

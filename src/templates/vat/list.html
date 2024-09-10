@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %} 
+
+{% block content %}
+<div id="vat_list" class="container">
+  <div><a href='{% url 'vat:create' next.year next.q %}'><i class="fas fa-plus-circle"></i> new report for {{next.year}} Q{{ next.q }}</a></div>
+
+  {% for o in object_list %}
+  <div><a href='{% url 'vat:create' o.year o.q %}'>report for {{ o.year }} Q{{ o.q }}</a></div>
+  {% endfor %}
+</div>
+{% endblock %}

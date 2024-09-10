@@ -1,0 +1,3031 @@
+[
+  {
+    "model": "income.line",
+    "pk": 1,
+    "fields": {
+      "in_id": 1,
+      "line_no": 1,
+      "title": "3月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 2,
+    "fields": {
+      "in_id": 2,
+      "line_no": 1,
+      "title": "4月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 3,
+    "fields": {
+      "in_id": 3,
+      "line_no": 1,
+      "title": "マウス&LANケーブル &カードリーダ購入費 €6.49+1.34+ 8.93=€16.76 €16.76x135.781=2275 円",
+      "quantity": 1.0,
+      "unit_price": 2275.0,
+      "total_price": 2275.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 4,
+    "fields": {
+      "in_id": 4,
+      "line_no": 1,
+      "title": "5月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 5,
+    "fields": {
+      "in_id": 5,
+      "line_no": 1,
+      "title": "6月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 6,
+    "fields": {
+      "in_id": 6,
+      "line_no": 1,
+      "title": "7月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 7,
+    "fields": {
+      "in_id": 7,
+      "line_no": 1,
+      "title": "8月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 8,
+    "fields": {
+      "in_id": 8,
+      "line_no": 1,
+      "title": "9月分業務報酬",
+      "quantity": 1.0,
+      "unit_price": 502589.0,
+      "total_price": 502589.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 9,
+    "fields": {
+      "in_id": 9,
+      "line_no": 1,
+      "title": "備品一式送料 2671.00 JPY 2671.00 JPY 0.0% €19.25x138.78=\n2671.5円",
+      "quantity": 1.0,
+      "unit_price": 2671.0,
+      "total_price": 2671.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 10,
+    "fields": {
+      "in_id": 10,
+      "line_no": 1,
+      "title": "3月作業分",
+      "quantity": 1.0,
+      "unit_price": 500000.0,
+      "total_price": 500000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 11,
+    "fields": {
+      "in_id": 11,
+      "line_no": 1,
+      "title": "4月作業分",
+      "quantity": 1.0,
+      "unit_price": 500000.0,
+      "total_price": 500000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 12,
+    "fields": {
+      "in_id": 12,
+      "line_no": 1,
+      "title": "Windows 10 installeren & instelling",
+      "quantity": 1.0,
+      "unit_price": 200.0,
+      "total_price": 242.0,
+      "tax_rate": 21
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 13,
+    "fields": {
+      "in_id": 13,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 4月作業分",
+      "quantity": 52.0,
+      "unit_price": 2002.0,
+      "total_price": 104104.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 14,
+    "fields": {
+      "in_id": 14,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 5月作業分",
+      "quantity": 76.05,
+      "unit_price": 2002.0,
+      "total_price": 152252.1,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 15,
+    "fields": {
+      "in_id": 15,
+      "line_no": 1,
+      "title": "レンズ設計支援プログラムのWin11PCへのインストール作業",
+      "quantity": 1.0,
+      "unit_price": 30000.0,
+      "total_price": 30000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 16,
+    "fields": {
+      "in_id": 16,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 6月作業分",
+      "quantity": 145.2,
+      "unit_price": 2002.0,
+      "total_price": 290690.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 17,
+    "fields": {
+      "in_id": 17,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 7月作業分",
+      "quantity": 130.28,
+      "unit_price": 2002.0,
+      "total_price": 260821.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 18,
+    "fields": {
+      "in_id": 18,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 8月作業分",
+      "quantity": 66.8,
+      "unit_price": 2002.0,
+      "total_price": 133734.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 19,
+    "fields": {
+      "in_id": 18,
+      "line_no": 2,
+      "title": "Node.jsを使用した既存サービスの保守改修 (エンゲート株式会社) 8月分",
+      "quantity": 40.4,
+      "unit_price": 2860.0,
+      "total_price": 115544.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 20,
+    "fields": {
+      "in_id": 19,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 9月作業分",
+      "quantity": 35.33,
+      "unit_price": 2002.0,
+      "total_price": 70731.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 21,
+    "fields": {
+      "in_id": 19,
+      "line_no": 2,
+      "title": "Node.jsを使用した既存サービスの保守改修 (エンゲート株式会社) 9月作業分",
+      "quantity": 94.88,
+      "unit_price": 2860.0,
+      "total_price": 271357.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 22,
+    "fields": {
+      "in_id": 19,
+      "line_no": 3,
+      "title": "Webシステム運用(株式会社TomTak) 9月作業分",
+      "quantity": 3.95,
+      "unit_price": 2002.0,
+      "total_price": 7908.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 23,
+    "fields": {
+      "in_id": 20,
+      "line_no": 1,
+      "title": "PHPシステム改修(株式会社TomTak) 10月作業分",
+      "quantity": 9.87,
+      "unit_price": 2002.0,
+      "total_price": 19760.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 24,
+    "fields": {
+      "in_id": 20,
+      "line_no": 2,
+      "title": "Node.jsを使用した既存サービスの保守改修 (エンゲート株式会社) 10月作業分",
+      "quantity": 70.0,
+      "unit_price": 2860.0,
+      "total_price": 200200.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 25,
+    "fields": {
+      "in_id": 21,
+      "line_no": 1,
+      "title": "HIROYAKU(株式会社TomTak) 11月作業分",
+      "quantity": 33.0,
+      "unit_price": 2002.0,
+      "total_price": 66066.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 26,
+    "fields": {
+      "in_id": 21,
+      "line_no": 2,
+      "title": "Node.jsを使用した既存サービスの保守改修 (エンゲート株式会社) 11月作業分",
+      "quantity": 50.75,
+      "unit_price": 2860.0,
+      "total_price": 145145.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 27,
+    "fields": {
+      "in_id": 22,
+      "line_no": 1,
+      "title": "HIROYAKU(株式会社TomTak) 2023.12月作業分",
+      "quantity": 80.0,
+      "unit_price": 2002.0,
+      "total_price": 160160.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 28,
+    "fields": {
+      "in_id": 22,
+      "line_no": 2,
+      "title": "PHPやPythonを使用したシステム開発及びその他関連 業務(株式会社Propre Base) 2023.12月分",
+      "quantity": 56.0,
+      "unit_price": 2310.0,
+      "total_price": 129360.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 29,
+    "fields": {
+      "in_id": 23,
+      "line_no": 1,
+      "title": "PHPやPythonを使用したシステム開発及びその他関連業務(株式会社Propre Base) 2024.1月分",
+      "quantity": 156.5,
+      "unit_price": 2310.0,
+      "total_price": 361515.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 30,
+    "fields": {
+      "in_id": 24,
+      "line_no": 1,
+      "title": "PHPやPythonを使用したシステム開発及びその他関連業務(株式会社Propre Base) 2024.2月分",
+      "quantity": 22.5,
+      "unit_price": 2310.0,
+      "total_price": 51975.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 31,
+    "fields": {
+      "in_id": 25,
+      "line_no": 1,
+      "title": "ビナヤマト3月作業分",
+      "quantity": 85.0,
+      "unit_price": 3000.0,
+      "total_price": 255000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 32,
+    "fields": {
+      "in_id": 26,
+      "line_no": 1,
+      "title": "ビナヤマト4月作業分",
+      "quantity": 184.0,
+      "unit_price": 3000.0,
+      "total_price": 552000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 33,
+    "fields": {
+      "in_id": 27,
+      "line_no": 1,
+      "title": "ビナヤマト5月作業分",
+      "quantity": 182.0,
+      "unit_price": 3000.0,
+      "total_price": 546000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 34,
+    "fields": {
+      "in_id": 28,
+      "line_no": 1,
+      "title": "ビナヤマト6月作業分",
+      "quantity": 72.0,
+      "unit_price": 3000.0,
+      "total_price": 216000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 35,
+    "fields": {
+      "in_id": 29,
+      "line_no": 1,
+      "title": "不具合対応（7月作業分）",
+      "quantity": 143.5,
+      "unit_price": 3000.0,
+      "total_price": 430500.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.line",
+    "pk": 36,
+    "fields": {
+      "in_id": 29,
+      "line_no": 2,
+      "title": "新機能（7月作業分）",
+      "quantity": 8.0,
+      "unit_price": 3000.0,
+      "total_price": 24000.0,
+      "tax_rate": 0
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 1,
+    "fields": {
+      "number": "2022-000001",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-04-04",
+      "paydue": null,
+      "date_paid": "2022-08-08",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 138.1558837,
+      "net": 3637.84,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3637.84,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 2,
+    "fields": {
+      "number": "2022-000002",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-05-06",
+      "paydue": null,
+      "date_paid": "2022-08-08",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 138.4828821,
+      "net": 3629.25,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3629.25,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 3,
+    "fields": {
+      "number": "2022-000003",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-05-09",
+      "paydue": null,
+      "date_paid": "2022-12-05",
+      "currency": 2,
+      "local_total": 2275.0,
+      "rate": 147.7272727,
+      "net": 15.4,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 15.4,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 4,
+    "fields": {
+      "number": "2022-000004",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-06-06",
+      "paydue": null,
+      "date_paid": "2022-08-08",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 138.4527443,
+      "net": 3630.04,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3630.04,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 5,
+    "fields": {
+      "number": "2022-000005",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-07-04",
+      "paydue": null,
+      "date_paid": "2022-08-08",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 138.5431971,
+      "net": 3627.67,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3627.67,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 6,
+    "fields": {
+      "number": "2022-000006",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-08-03",
+      "paydue": null,
+      "date_paid": "2022-12-05",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 142.6014987,
+      "net": 3524.43,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3524.43,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 7,
+    "fields": {
+      "number": "2022-000007",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-09-05",
+      "paydue": null,
+      "date_paid": "2022-12-22",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 141.3577504,
+      "net": 3555.44,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3555.44,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 8,
+    "fields": {
+      "number": "2022-000008",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-10-03",
+      "paydue": null,
+      "date_paid": "2022-12-22",
+      "currency": 2,
+      "local_total": 502589.0,
+      "rate": 140.5367694,
+      "net": 3576.21,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3576.21,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 9,
+    "fields": {
+      "number": "2022-000009",
+      "client": 1,
+      "region": 3,
+      "status": 3,
+      "date": "2022-10-03",
+      "paydue": null,
+      "date_paid": "2022-12-05",
+      "currency": 2,
+      "local_total": 2671.0,
+      "rate": 146.919692,
+      "net": 18.18,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 18.18,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 10,
+    "fields": {
+      "number": "2023-000001",
+      "client": 2,
+      "region": 3,
+      "status": 3,
+      "date": "2023-04-03",
+      "paydue": null,
+      "date_paid": "2023-07-25",
+      "currency": 2,
+      "local_total": 500000.0,
+      "rate": 157.6799601,
+      "net": 3170.98,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3170.98,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 11,
+    "fields": {
+      "number": "2023-000002",
+      "client": 2,
+      "region": 3,
+      "status": 3,
+      "date": "2023-05-01",
+      "paydue": null,
+      "date_paid": "2023-07-25",
+      "currency": 2,
+      "local_total": 500000.0,
+      "rate": 157.8108479,
+      "net": 3168.35,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3168.35,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 12,
+    "fields": {
+      "number": "2023-000003",
+      "client": 5,
+      "region": 1,
+      "status": 3,
+      "date": "2023-05-25",
+      "paydue": null,
+      "date_paid": "2023-06-11",
+      "currency": 1,
+      "local_total": 0.0,
+      "rate": 0.0,
+      "net": 200.0,
+      "net21": 200.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 42.0,
+      "vat21": 42.0,
+      "vat9": 0.0,
+      "total": 242.0,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 13,
+    "fields": {
+      "number": "2023-000004",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-05-12",
+      "paydue": null,
+      "date_paid": "2023-09-05",
+      "currency": 2,
+      "local_total": 104104.0,
+      "rate": 159.3241609,
+      "net": 653.41,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 653.41,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 14,
+    "fields": {
+      "number": "2023-000005",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-06-09",
+      "paydue": null,
+      "date_paid": "2023-09-05",
+      "currency": 2,
+      "local_total": 152252.0,
+      "rate": 159.286073,
+      "net": 955.84,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 955.84,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 15,
+    "fields": {
+      "number": "2023-000006",
+      "client": 3,
+      "region": 3,
+      "status": 3,
+      "date": "2023-07-05",
+      "paydue": null,
+      "date_paid": "2023-09-04",
+      "currency": 2,
+      "local_total": 30000.0,
+      "rate": 159.5744681,
+      "net": 188.0,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 188.0,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 16,
+    "fields": {
+      "number": "2023-000007",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-07-07",
+      "paydue": null,
+      "date_paid": "2023-09-05",
+      "currency": 2,
+      "local_total": 290690.0,
+      "rate": 159.2307145,
+      "net": 1825.59,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1825.59,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 17,
+    "fields": {
+      "number": "2023-000008",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-08-09",
+      "paydue": null,
+      "date_paid": "2023-09-05",
+      "currency": 2,
+      "local_total": 269821.0,
+      "rate": 164.7299079,
+      "net": 1637.96,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1637.96,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 18,
+    "fields": {
+      "number": "2023-000009",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-09-12",
+      "paydue": null,
+      "date_paid": "2023-12-06",
+      "currency": 2,
+      "local_total": 249278.0,
+      "rate": 159.6002279,
+      "net": 1561.89,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1561.89,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 19,
+    "fields": {
+      "number": "2023-000010",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-10-12",
+      "paydue": null,
+      "date_paid": "2023-12-06",
+      "currency": 2,
+      "local_total": 349996.0,
+      "rate": 159.5568827,
+      "net": 2193.55,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 2193.55,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 20,
+    "fields": {
+      "number": "2023-000011",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-11-13",
+      "paydue": null,
+      "date_paid": "2023-12-06",
+      "currency": 2,
+      "local_total": 220017.0,
+      "rate": 159.4753666,
+      "net": 1379.63,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1379.63,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 21,
+    "fields": {
+      "number": "2023-000012",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2023-12-14",
+      "paydue": null,
+      "date_paid": "2023-12-21",
+      "currency": 2,
+      "local_total": 211211.0,
+      "rate": 157.6601526,
+      "net": 1339.66,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1339.66,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 22,
+    "fields": {
+      "number": "2024-000001",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2024-01-15",
+      "paydue": null,
+      "date_paid": "2024-03-12",
+      "currency": 2,
+      "local_total": 289520.0,
+      "rate": 162.0617079,
+      "net": 1786.48,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1786.48,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 23,
+    "fields": {
+      "number": "2024-000002",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2024-02-08",
+      "paydue": null,
+      "date_paid": "2024-03-12",
+      "currency": 2,
+      "local_total": 361515.0,
+      "rate": 162.0533073,
+      "net": 2230.84,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 2230.84,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 24,
+    "fields": {
+      "number": "2024-000003",
+      "client": 4,
+      "region": 3,
+      "status": 3,
+      "date": "2024-03-11",
+      "paydue": null,
+      "date_paid": "2024-03-12",
+      "currency": 2,
+      "local_total": 51975.0,
+      "rate": 162.2494849,
+      "net": 320.34,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 320.34,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 25,
+    "fields": {
+      "number": "2024-000004",
+      "client": 6,
+      "region": 3,
+      "status": 3,
+      "date": "2024-04-01",
+      "paydue": null,
+      "date_paid": "2024-05-31",
+      "currency": 2,
+      "local_total": 255000.0,
+      "rate": 170.7341569,
+      "net": 1493.55,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1493.55,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 26,
+    "fields": {
+      "number": "2024-000005",
+      "client": 6,
+      "region": 3,
+      "status": 3,
+      "date": "2024-05-01",
+      "paydue": null,
+      "date_paid": "2024-07-14",
+      "currency": 2,
+      "local_total": 552000.0,
+      "rate": 173.8095463,
+      "net": 3175.89,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3175.89,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 27,
+    "fields": {
+      "number": "2024-000006",
+      "client": 6,
+      "region": 3,
+      "status": 3,
+      "date": "2024-06-01",
+      "paydue": "2024-06-30",
+      "date_paid": "2024-07-14",
+      "currency": 2,
+      "local_total": 546000.0,
+      "rate": 173.270076,
+      "net": 3151.15,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 3151.15,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 28,
+    "fields": {
+      "number": "2024-000007",
+      "client": 6,
+      "region": 3,
+      "status": 2,
+      "date": "2024-07-01",
+      "paydue": "2024-07-31",
+      "date_paid": null,
+      "currency": 2,
+      "local_total": 216000.0,
+      "rate": 0.0,
+      "net": 0.0,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 0.0,
+      "memo": ""
+    }
+  },
+  {
+    "model": "income.income",
+    "pk": 29,
+    "fields": {
+      "number": "2024-0008",
+      "client": 6,
+      "region": 3,
+      "status": 2,
+      "date": "2024-08-01",
+      "paydue": "2024-08-31",
+      "date_paid": null,
+      "currency": 2,
+      "local_total": 454500.0,
+      "rate": 0.0,
+      "net": 0.0,
+      "net21": 0.0,
+      "net9": 0.0,
+      "net0": 0.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 0.0,
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 1,
+    "fields": {
+      "title": "Gekko Premium payment",
+      "cost_type": 3,
+      "region": 1,
+      "date_paid": "2022-03-10",
+      "tax_rate": 21,
+      "net": 122.4,
+      "vat": 25.7,
+      "vat21": 25.7,
+      "vat9": 0.0,
+      "total": 148.1,
+      "reciept": "1646909470.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 2,
+    "fields": {
+      "title": "SD card reader @amazon",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-04-05",
+      "tax_rate": 21,
+      "net": 7.38,
+      "vat": 1.55,
+      "vat21": 1.55,
+      "vat9": 0.0,
+      "total": 8.93,
+      "reciept": "1649259771.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 3,
+    "fields": {
+      "title": "LAN cable @amazon",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-04-05",
+      "tax_rate": 21,
+      "net": 1.11,
+      "vat": 0.23,
+      "vat21": 0.23,
+      "vat9": 0.0,
+      "total": 1.34,
+      "reciept": "1649259710.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 4,
+    "fields": {
+      "title": "keyboard @Amazon",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-04-05",
+      "tax_rate": 21,
+      "net": 5.37,
+      "vat": 1.13,
+      "vat21": 1.13,
+      "vat9": 0.0,
+      "total": 6.5,
+      "reciept": "1649259635.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 5,
+    "fields": {
+      "title": "mouse @Amazon",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-04-05",
+      "tax_rate": 21,
+      "net": 5.36,
+      "vat": 1.13,
+      "vat21": 1.13,
+      "vat9": 0.0,
+      "total": 6.49,
+      "reciept": "1649259566.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 6,
+    "fields": {
+      "title": "Power strip&USB code @HEMA",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-04-06",
+      "tax_rate": 21,
+      "net": 9.8,
+      "vat": 2.6,
+      "vat21": 2.6,
+      "vat9": 0.0,
+      "total": 12.4,
+      "reciept": "1649259060.JPG",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 7,
+    "fields": {
+      "title": "Adam Wolf Immigration Lawyers",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2022-04-18",
+      "tax_rate": 21,
+      "net": 200.0,
+      "vat": 31.5,
+      "vat21": 31.5,
+      "vat9": 0.0,
+      "total": 231.5,
+      "reciept": "1654489773.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 8,
+    "fields": {
+      "title": "internet (TELE2) 3/18-4/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-04-18",
+      "tax_rate": 0,
+      "net": 32.19,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 32.19,
+      "reciept": "1654490181.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 9,
+    "fields": {
+      "title": "SSD 2TB (@Amazon)",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-04-24",
+      "tax_rate": 21,
+      "net": 164.46,
+      "vat": 34.54,
+      "vat21": 34.54,
+      "vat9": 0.0,
+      "total": 199.0,
+      "reciept": "1654489205.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 10,
+    "fields": {
+      "title": "desk (@IKEA)",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-05-14",
+      "tax_rate": 21,
+      "net": 154.62,
+      "vat": 34.36,
+      "vat21": 34.36,
+      "vat9": 0.0,
+      "total": 188.98,
+      "reciept": "1672820833.png",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 11,
+    "fields": {
+      "title": "Chair (@JYSK)",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-05-15",
+      "tax_rate": 21,
+      "net": 87.18,
+      "vat": 18.31,
+      "vat21": 18.31,
+      "vat9": 0.0,
+      "total": 105.49,
+      "reciept": "1672822000.png",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 12,
+    "fields": {
+      "title": "internet (TELE2) 4/18-5/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-05-17",
+      "tax_rate": 0,
+      "net": 27.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 27.0,
+      "reciept": "1654490267.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 13,
+    "fields": {
+      "title": "internet (KPN) 5/18-6/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-05-18",
+      "tax_rate": 21,
+      "net": 50.55,
+      "vat": 10.62,
+      "vat21": 10.62,
+      "vat9": 0.0,
+      "total": 61.17,
+      "reciept": "1654490486.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 14,
+    "fields": {
+      "title": "internet (TELE2) 5/18-6/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-06-14",
+      "tax_rate": 0,
+      "net": 27.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 27.0,
+      "reciept": "1672820869.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 15,
+    "fields": {
+      "title": "internet (KPN) 6/18-7/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-06-22",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1658670788.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 16,
+    "fields": {
+      "title": "tripod@Amazon",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-06-27",
+      "tax_rate": 21,
+      "net": 19.83,
+      "vat": 4.16,
+      "vat21": 4.16,
+      "vat9": 0.0,
+      "total": 23.99,
+      "reciept": "1672767722.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 17,
+    "fields": {
+      "title": "trolley@Amazon",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-06-27",
+      "tax_rate": 21,
+      "net": 25.51,
+      "vat": 5.36,
+      "vat21": 5.36,
+      "vat9": 0.0,
+      "total": 30.87,
+      "reciept": "1672767600.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 18,
+    "fields": {
+      "title": "internet (TELE2) 6/18-7/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-07-12",
+      "tax_rate": 0,
+      "net": 14.4,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 14.4,
+      "reciept": "1672820891.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 19,
+    "fields": {
+      "title": "PIA (internet VPN 2022 Jul-2024 Sep)",
+      "cost_type": 3,
+      "region": 1,
+      "date_paid": "2022-07-18",
+      "tax_rate": 0,
+      "net": 51.74,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 51.74,
+      "reciept": "1658671342.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 20,
+    "fields": {
+      "title": "internet (KPN) 7/18-8/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-07-21",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1658671046.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 21,
+    "fields": {
+      "title": "Resume Writing @Fiverr.com",
+      "cost_type": 1,
+      "region": 3,
+      "date_paid": "2022-08-01",
+      "tax_rate": 0,
+      "net": 54.16,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 54.16,
+      "reciept": "1666171975.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 22,
+    "fields": {
+      "title": "internet (KPN) 8/18-9/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-08-23",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1664949860.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 23,
+    "fields": {
+      "title": "Packet to Japan @PostNL",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-09-21",
+      "tax_rate": 0,
+      "net": 19.25,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 19.25,
+      "reciept": "1664950041.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 24,
+    "fields": {
+      "title": "internet (KPN) 9/18-10/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-09-21",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1664949885.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 25,
+    "fields": {
+      "title": "USB hub @Amazon",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-10-07",
+      "tax_rate": 0,
+      "net": 15.95,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 15.95,
+      "reciept": "1671632504.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 26,
+    "fields": {
+      "title": "ING 2022-09",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2022-10-07",
+      "tax_rate": 0,
+      "net": 10.23,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.23,
+      "reciept": "1670228626.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 27,
+    "fields": {
+      "title": "notebook @Amazon",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-10-07",
+      "tax_rate": 21,
+      "net": 9.1,
+      "vat": 1.9,
+      "vat21": 1.9,
+      "vat9": 0.0,
+      "total": 11.0,
+      "reciept": "1671632393.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 28,
+    "fields": {
+      "title": "internet (KPN) 10/18-11/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-10-21",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1670226835.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 29,
+    "fields": {
+      "title": "ING 2022-10",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2022-11-07",
+      "tax_rate": 0,
+      "net": 10.65,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.65,
+      "reciept": "1670228667.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 30,
+    "fields": {
+      "title": "business card@Fotofabriek",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-11-09",
+      "tax_rate": 21,
+      "net": 10.69,
+      "vat": 2.25,
+      "vat21": 2.25,
+      "vat9": 0.0,
+      "total": 12.94,
+      "reciept": "1670227310.png",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 31,
+    "fields": {
+      "title": "internet (KPN) 11/18-12/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-11-23",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1670226850.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 32,
+    "fields": {
+      "title": "web camera, tripod@amazon",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2022-12-06",
+      "tax_rate": 21,
+      "net": 52.04,
+      "vat": 10.93,
+      "vat21": 10.93,
+      "vat9": 0.0,
+      "total": 62.97,
+      "reciept": "1671631690.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 33,
+    "fields": {
+      "title": "ING 2022-11",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2022-12-07",
+      "tax_rate": 0,
+      "net": 10.65,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.65,
+      "reciept": "1671633882.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 34,
+    "fields": {
+      "title": "willnet(e-mail server)",
+      "cost_type": 3,
+      "region": 3,
+      "date_paid": "2022-12-12",
+      "tax_rate": 0,
+      "net": 106.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 106.0,
+      "reciept": "1671465519.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 35,
+    "fields": {
+      "title": "internet (KPN) 12/18-1/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2022-12-19",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1671462845.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 36,
+    "fields": {
+      "title": "Metal programing@Amazon",
+      "cost_type": 5,
+      "region": 3,
+      "date_paid": "2022-12-21",
+      "tax_rate": 0,
+      "net": 21.24,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 21.24,
+      "reciept": "1671778592.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 37,
+    "fields": {
+      "title": "air duster@praxis",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2022-12-22",
+      "tax_rate": 21,
+      "net": 6.6,
+      "vat": 1.39,
+      "vat21": 1.39,
+      "vat9": 0.0,
+      "total": 7.99,
+      "reciept": "1671719788.jpg",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 38,
+    "fields": {
+      "title": "accountant meeting",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2022-12-23",
+      "tax_rate": 21,
+      "net": 36.0,
+      "vat": 7.56,
+      "vat21": 7.56,
+      "vat9": 0.0,
+      "total": 43.56,
+      "reciept": "1671772013.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 39,
+    "fields": {
+      "title": "ING 2022-12",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-01-07",
+      "tax_rate": 0,
+      "net": 11.96,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.96,
+      "reciept": "1676977447.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 40,
+    "fields": {
+      "title": "internet (KPN) 1/18-2/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-01-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1676977555.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 41,
+    "fields": {
+      "title": "ING 2023-01",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-02-07",
+      "tax_rate": 0,
+      "net": 10.21,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.21,
+      "reciept": "1676977517.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 42,
+    "fields": {
+      "title": "internet (KPN) 2/18-3/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-02-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1676977603.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 43,
+    "fields": {
+      "title": "eRVee administraties",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2023-02-21",
+      "tax_rate": 21,
+      "net": 330.0,
+      "vat": 69.3,
+      "vat21": 69.3,
+      "vat9": 0.0,
+      "total": 399.3,
+      "reciept": "1676977651.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 44,
+    "fields": {
+      "title": "ING 2023-02",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-03-07",
+      "tax_rate": 0,
+      "net": 10.87,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.87,
+      "reciept": "1681368924.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 45,
+    "fields": {
+      "title": "eRVee administraties",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2023-03-07",
+      "tax_rate": 21,
+      "net": 80.0,
+      "vat": 16.8,
+      "vat21": 16.8,
+      "vat9": 0.0,
+      "total": 96.8,
+      "reciept": "1678269251.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 46,
+    "fields": {
+      "title": "Gekko Premium payment",
+      "cost_type": 3,
+      "region": 1,
+      "date_paid": "2023-03-10",
+      "tax_rate": 21,
+      "net": 122.4,
+      "vat": 25.7,
+      "vat21": 25.7,
+      "vat9": 0.0,
+      "total": 148.1,
+      "reciept": "1678414104.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 47,
+    "fields": {
+      "title": "internet (KPN) 3/18-4/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-03-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1681369253.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 48,
+    "fields": {
+      "title": "book : Object Oriented UI design",
+      "cost_type": 5,
+      "region": 3,
+      "date_paid": "2023-03-22",
+      "tax_rate": 0,
+      "net": 22.09,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 22.09,
+      "reciept": "1679909295.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 49,
+    "fields": {
+      "title": "book : UX design",
+      "cost_type": 5,
+      "region": 3,
+      "date_paid": "2023-03-22",
+      "tax_rate": 0,
+      "net": 19.19,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 19.19,
+      "reciept": "1679909257.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 50,
+    "fields": {
+      "title": "book : UI/UX design",
+      "cost_type": 5,
+      "region": 3,
+      "date_paid": "2023-03-22",
+      "tax_rate": 0,
+      "net": 7.36,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 7.36,
+      "reciept": "1679909222.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 51,
+    "fields": {
+      "title": "book : Vue.js 3",
+      "cost_type": 5,
+      "region": 3,
+      "date_paid": "2023-03-27",
+      "tax_rate": 0,
+      "net": 11.03,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.03,
+      "reciept": "1679909337.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 52,
+    "fields": {
+      "title": "Hoogeveen-Zwolle(train)",
+      "cost_type": 9,
+      "region": 1,
+      "date_paid": "2023-04-02",
+      "tax_rate": 9,
+      "net": 15.56,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 1.4,
+      "total": 16.96,
+      "reciept": "1681368523.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 53,
+    "fields": {
+      "title": "ING 2023-03",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-04-07",
+      "tax_rate": 0,
+      "net": 10.87,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.87,
+      "reciept": "1681368978.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 54,
+    "fields": {
+      "title": "internet (KPN) 4/18-5/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-04-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1682335042.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 55,
+    "fields": {
+      "title": "ING 2023-04",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-05-07",
+      "tax_rate": 0,
+      "net": 10.43,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.43,
+      "reciept": "1690362866.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 56,
+    "fields": {
+      "title": "internet (KPN) 5/18-6/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-05-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1690355671.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 57,
+    "fields": {
+      "title": "ING 2023-05",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-06-07",
+      "tax_rate": 0,
+      "net": 10.87,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.87,
+      "reciept": "1690362889.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 58,
+    "fields": {
+      "title": "internet (KPN) 6/18-7/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-06-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1690355680.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 59,
+    "fields": {
+      "title": "ING 2023-06",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-07-07",
+      "tax_rate": 0,
+      "net": 10.87,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.87,
+      "reciept": "1690362936.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 60,
+    "fields": {
+      "title": "eRVee administraties",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2023-07-11",
+      "tax_rate": 21,
+      "net": 95.0,
+      "vat": 19.95,
+      "vat21": 19.95,
+      "vat9": 0.0,
+      "total": 114.95,
+      "reciept": "1689141592.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 61,
+    "fields": {
+      "title": "internet (KPN) 7/18-8/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-07-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1690355806.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 62,
+    "fields": {
+      "title": "ING 2023-07",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-08-07",
+      "tax_rate": 0,
+      "net": 11.3,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.3,
+      "reciept": "1698300742.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 63,
+    "fields": {
+      "title": "book : Let’s begin! Requirement Definition",
+      "cost_type": 5,
+      "region": 1,
+      "date_paid": "2023-08-09",
+      "tax_rate": 0,
+      "net": 12.62,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 12.62,
+      "reciept": "1691680538.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 64,
+    "fields": {
+      "title": "book : Project Management",
+      "cost_type": 5,
+      "region": 1,
+      "date_paid": "2023-08-09",
+      "tax_rate": 0,
+      "net": 13.22,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 13.22,
+      "reciept": "1691680458.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 65,
+    "fields": {
+      "title": "book : System Design Interview",
+      "cost_type": 5,
+      "region": 1,
+      "date_paid": "2023-08-09",
+      "tax_rate": 0,
+      "net": 8.46,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 8.46,
+      "reciept": "1691680349.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 66,
+    "fields": {
+      "title": "Zorgverzekeringswet",
+      "cost_type": 8,
+      "region": 1,
+      "date_paid": "2023-08-11",
+      "tax_rate": 0,
+      "net": 1087.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1087.0,
+      "reciept": "1691766518.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 67,
+    "fields": {
+      "title": "Inkomstenbelasting",
+      "cost_type": 8,
+      "region": 1,
+      "date_paid": "2023-08-11",
+      "tax_rate": 0,
+      "net": 1399.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1399.0,
+      "reciept": "1691766465.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 68,
+    "fields": {
+      "title": "internet (KPN) 8/18-9/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-08-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1698301431.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 69,
+    "fields": {
+      "title": "ING 2023-08",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-09-07",
+      "tax_rate": 0,
+      "net": 11.08,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.08,
+      "reciept": "1698300788.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 70,
+    "fields": {
+      "title": "internet (KPN) 9/18-10/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-09-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1698301459.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 71,
+    "fields": {
+      "title": "zorgtoeslag terugbetaling",
+      "cost_type": 8,
+      "region": 1,
+      "date_paid": "2023-09-22",
+      "tax_rate": 0,
+      "net": 1009.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 1009.0,
+      "reciept": "1695391382.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 72,
+    "fields": {
+      "title": "ING 2023-09",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-10-09",
+      "tax_rate": 0,
+      "net": 11.96,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.96,
+      "reciept": "1698300820.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 73,
+    "fields": {
+      "title": "USB 16GBx5",
+      "cost_type": 4,
+      "region": 1,
+      "date_paid": "2023-10-15",
+      "tax_rate": 21,
+      "net": 18.89,
+      "vat": 3.97,
+      "vat21": 3.97,
+      "vat9": 0.0,
+      "total": 22.86,
+      "reciept": "1698301727.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 74,
+    "fields": {
+      "title": "internet (KPN) 10/18-11/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-10-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1698301494.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 75,
+    "fields": {
+      "title": "ING 2023-10",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-11-08",
+      "tax_rate": 0,
+      "net": 10.43,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.43,
+      "reciept": "1703156769.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 76,
+    "fields": {
+      "title": "internet (KPN) 11/18-12/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-11-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1703069088.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 77,
+    "fields": {
+      "title": "ING 2023-11",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2023-12-07",
+      "tax_rate": 0,
+      "net": 11.08,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.08,
+      "reciept": "1703156716.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 78,
+    "fields": {
+      "title": "internet (KPN) 12/18-1/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2023-12-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1703068981.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 79,
+    "fields": {
+      "title": "WOZ  en aanslagbiljet",
+      "cost_type": 8,
+      "region": 1,
+      "date_paid": "2024-01-01",
+      "tax_rate": 0,
+      "net": 539.22,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 539.22,
+      "reciept": "1708674196.jpg",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 80,
+    "fields": {
+      "title": "eRVee administraties (YearReport2023)",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2024-01-04",
+      "tax_rate": 21,
+      "net": 425.0,
+      "vat": 89.25,
+      "vat21": 89.25,
+      "vat9": 0.0,
+      "total": 514.25,
+      "reciept": "1704445534.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 81,
+    "fields": {
+      "title": "internet (KPN) 1/18-2/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2024-01-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1712987525.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 82,
+    "fields": {
+      "title": "ADAM&WOLF",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2024-01-25",
+      "tax_rate": 0,
+      "net": 900.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 900.0,
+      "reciept": "1706265648.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 83,
+    "fields": {
+      "title": "ING 2023-12",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-01-26",
+      "tax_rate": 0,
+      "net": 11.52,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.52,
+      "reciept": "1712986910.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 84,
+    "fields": {
+      "title": "IND kosten van de aanvraag VISA",
+      "cost_type": 8,
+      "region": 1,
+      "date_paid": "2024-01-30",
+      "tax_rate": 0,
+      "net": 380.0,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 380.0,
+      "reciept": "1706789862.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 85,
+    "fields": {
+      "title": "internet (KPN) 2/18-3/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2024-02-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1712987557.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 86,
+    "fields": {
+      "title": "ING 2024-01",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-02-26",
+      "tax_rate": 0,
+      "net": 11.3,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.3,
+      "reciept": "1712987072.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 87,
+    "fields": {
+      "title": "Gekko Premium payment",
+      "cost_type": 3,
+      "region": 1,
+      "date_paid": "2024-03-10",
+      "tax_rate": 21,
+      "net": 122.4,
+      "vat": 25.7,
+      "vat21": 25.7,
+      "vat9": 0.0,
+      "total": 148.1,
+      "reciept": "1710038160.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 88,
+    "fields": {
+      "title": "internet (KPN) 3/18-4/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2024-03-18",
+      "tax_rate": 21,
+      "net": 28.93,
+      "vat": 6.07,
+      "vat21": 6.07,
+      "vat9": 0.0,
+      "total": 35.0,
+      "reciept": "1712987589.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 89,
+    "fields": {
+      "title": "ING 2024-02",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-03-26",
+      "tax_rate": 0,
+      "net": 11.52,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.52,
+      "reciept": "1712987094.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 90,
+    "fields": {
+      "title": "Travel (to Japan)",
+      "cost_type": 9,
+      "region": 1,
+      "date_paid": "2024-04-12",
+      "tax_rate": 0,
+      "net": 995.86,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 995.86,
+      "reciept": "",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 91,
+    "fields": {
+      "title": "dRvee",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2024-04-16",
+      "tax_rate": 21,
+      "net": 85.0,
+      "vat": 17.85,
+      "vat21": 17.85,
+      "vat9": 0.0,
+      "total": 102.85,
+      "reciept": "1713280350.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 92,
+    "fields": {
+      "title": "internet (KPN) 4/18-5/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2024-04-18",
+      "tax_rate": 21,
+      "net": 29.87,
+      "vat": 6.27,
+      "vat21": 6.27,
+      "vat9": 0.0,
+      "total": 36.14,
+      "reciept": "1720965781.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 93,
+    "fields": {
+      "title": "ING 2024-03",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-04-26",
+      "tax_rate": 0,
+      "net": 11.52,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.52,
+      "reciept": "1712987148.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 94,
+    "fields": {
+      "title": "internet (KPN) 5/18-6/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2024-05-18",
+      "tax_rate": 21,
+      "net": 43.09,
+      "vat": 9.05,
+      "vat21": 9.05,
+      "vat9": 0.0,
+      "total": 52.14,
+      "reciept": "1720965859.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 95,
+    "fields": {
+      "title": "LAN cable @Amazon",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2024-05-21",
+      "tax_rate": 21,
+      "net": 4.29,
+      "vat": 0.9,
+      "vat21": 0.9,
+      "vat9": 0.0,
+      "total": 5.19,
+      "reciept": "1720966730.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 96,
+    "fields": {
+      "title": "LAN cable @Amazon",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2024-05-21",
+      "tax_rate": 21,
+      "net": 4.35,
+      "vat": 0.91,
+      "vat21": 0.91,
+      "vat9": 0.0,
+      "total": 5.26,
+      "reciept": "1720966714.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 97,
+    "fields": {
+      "title": "Monitor mount @Amazon",
+      "cost_type": 6,
+      "region": 1,
+      "date_paid": "2024-05-22",
+      "tax_rate": 21,
+      "net": 29.74,
+      "vat": 6.25,
+      "vat21": 6.25,
+      "vat9": 0.0,
+      "total": 35.99,
+      "reciept": "1720966689.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 98,
+    "fields": {
+      "title": "ING 2024-04",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-05-26",
+      "tax_rate": 0,
+      "net": 10.87,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.87,
+      "reciept": "1720966150.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 99,
+    "fields": {
+      "title": "internet (KPN) 6/18-7/17",
+      "cost_type": 2,
+      "region": 1,
+      "date_paid": "2024-06-18",
+      "tax_rate": 21,
+      "net": 43.09,
+      "vat": 9.05,
+      "vat21": 9.05,
+      "vat9": 0.0,
+      "total": 52.14,
+      "reciept": "1720965888.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 100,
+    "fields": {
+      "title": "ING 2024-05",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-06-26",
+      "tax_rate": 0,
+      "net": 11.3,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 11.3,
+      "reciept": "1720966178.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 101,
+    "fields": {
+      "title": "ING 2024-06",
+      "cost_type": 7,
+      "region": 1,
+      "date_paid": "2024-07-08",
+      "tax_rate": 0,
+      "net": 10.65,
+      "vat": 0.0,
+      "vat21": 0.0,
+      "vat9": 0.0,
+      "total": 10.65,
+      "reciept": "1720966257.pdf",
+      "memo": ""
+    }
+  },
+  {
+    "model": "out.out",
+    "pk": 102,
+    "fields": {
+      "title": "test",
+      "cost_type": 1,
+      "region": 1,
+      "date_paid": "2024-08-12",
+      "tax_rate": 21,
+      "net": 100.0,
+      "vat": 21.0,
+      "vat21": 21.0,
+      "vat9": 0.0,
+      "total": 121.0,
+      "reciept": "",
+      "memo": "aaa"
+    }
+  }
+]

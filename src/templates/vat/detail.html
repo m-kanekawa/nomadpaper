@@ -1,0 +1,113 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %} 
+
+{% block content %}
+<div id="vat_update" class="container">
+  <form method="post" onsubmit="return false;">
+    {% csrf_token %}
+    <table>
+      <tr><th class='item'>Sales tax report for Q2 2024</th><th class='total'>Total</th><th class='btw'>BTW</th></tr>
+      <tr><th colspan='3'>Prestaties binnenland</th></tr>
+      <tr>
+        <td>1a. Leveringen/diensten belast met hoog %</td>
+        <td>
+          <input type="text" name="t1a" class="form-control form-control-sm text-end" value="{{d.t1a|floatformat:-2}}" readonly/>
+        </td>
+        <td>
+          <input type="text" name="b1a" class="form-control form-control-sm text-end" value="{{d.b1a|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+      <tr>
+        <td>1b. Leveringen/diensten belast met laag %</td>
+        <td>
+          <input type="text" name="t1b" class="form-control form-control-sm text-end" value="{{d.t1b|floatformat:-2}}" readonly/>
+        </td>
+        <td>
+          <input type="text" name="b1b" class="form-control form-control-sm text-end" value="{{d.b1b|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+      <tr><td class="no_support">1c. Leveringen/diensten belast met overige tarieven, behalve 0%</td><td></td><td></td></tr>
+      <tr><td class="no_support">1d. Privégebruik</td><td></td><td></td></tr>
+      <tr><td>1e. Leveringen/diensten belast met 0% of niet bij u belast</td>
+        <td>
+          <input type="text" name="t1e" class="form-control form-control-sm text-end" value="{{d.t1e|floatformat:-2}}" readonly/>
+        </td><td></td>
+      </tr>
+
+      <tr><th colspan='3'>Verleggingsregelingen binnenland</th></tr>
+      <tr><td class="no_support">2a. Leveringen/diensten waarbij de omzetbelasting naar u is verlegd</td><td></td><td></td></tr>
+
+      <tr><th colspan='3'>Prestaties naar of in het buitenland</th></tr>
+      <tr>
+        <td>3a. Leveringen naar landen buiten de EU (uitvoer)</td>
+        <td>
+          <input type="text" name="t3a" class="form-control form-control-sm text-end" value="{{d.t3a|floatformat:-2}}" readonly/>
+        </td><td></td>
+      </tr>
+      <tr><td>3b. Leveringen naar of diensten in landen binnen de EU</td>
+        <td>
+          <input type="text" name="t3b" class="form-control form-control-sm text-end" value="{{d.t3b|floatformat:-2}}" readonly/>
+        </td>
+        <td></td>
+      </tr>
+      <tr><td class="no_support">3c. Installatie/afstandsverkopen binnen de EU</td><td></td><td></td></tr>
+      <tr><th colspan='3'>Prestaties vanuit het buitenland aan u verricht</th></tr>
+      <tr>
+        <td>4a. Leveringen/diensten uit landen buiten de EU </td>
+        <td>
+          <input type="text" name="t4a" class="form-control form-control-sm text-end" value="{{d.t4a|floatformat:-2}}" readonly/>
+        </td>
+        <td>
+          <input type="text" name="b4a" class="form-control form-control-sm text-end" value="{{d.b4a|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+      <tr>
+        <td>4b. Leveringen/diensten uit landen binnen de EU </td>
+        <td>
+          <input type="text" name="t4b" class="form-control form-control-sm text-end" value="{{d.t4b|floatformat:-2}}" readonly/>
+        </td>
+        <td>
+          <input type="text" name="b4b" class="form-control form-control-sm text-end" value="{{d.b4b|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+
+      <tr><th colspan='3'>Voorbelasting, kleine ondernemersregeling, schatting en eindtotaal</th></tr>
+      <tr>
+        <td>5a. Verschuldigde omzetbelasting</td><td></td>
+        <td>
+          <input type="text" name="b5a" class="form-control form-control-sm text-end" value="{{d.b5a|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+      <tr>
+        <td>5b. Voorbelasting </td><td></td>
+        <td>
+          <input type="text" name="b5b" class="form-control form-control-sm text-end" value="{{d.b5b|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+      <tr>
+        <td>5c. Subtotaal</td><td></td>
+        <td>
+          <input type="text" name="b5c" class="form-control form-control-sm text-end" value="{{d.b5c|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+      <tr><td class="no_support">5d. Vermindering volgens de kleine ondernemersregeling<td></td><td></td></tr>
+      <tr><td class="no_support">5e. Schatting vorige aangifte(n)        </td><td></td><td></td></tr>
+      <tr><td class="no_support">5f. Schatting deze aangifte             </td><td></td><td></td></tr>
+      <tr>
+        <td>5g. Totaal te betalen / terug te vragen </td><td></td>
+        <td>
+          <input type="text" name="b5g" class="form-control form-control-sm text-end" value="{{d.b5g|floatformat:-2}}" readonly/>
+        </td>
+      </tr>
+    </table>
+    
+    {% if save %}
+    <button type="submit" class="btn btn-nomad" onclick="submit();">
+      <span>
+        <i class="fas fa-paper-plane"></i>
+      </span>
+      <span>save</span>
+    </button>
+    {% endif %}
+  </form>
+</div>
+{% endblock %}

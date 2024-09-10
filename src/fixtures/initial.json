@@ -1,0 +1,163 @@
+[
+  {
+    "model": "info.info",
+    "pk": 1,
+    "fields": {
+      "company_name": "Mieko Kanekawa",
+      "address1": "Valkenstade 92",
+      "address2": "7905BV Hoogeveen",
+      "address3": "Nederlands",
+      "tel": "06-2682 9365",
+      "bank": "NL76 INGB 0675 4488 40",
+      "btw": "NL004117187B69",
+      "kvk": "85590193"
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 1,
+    "fields": {
+      "name": "Instalimb",
+      "nickname": "インスタリム",
+      "address1": "",
+      "address2": "",
+      "address3": ""
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 2,
+    "fields": {
+      "name": "Sensnet",
+      "nickname": "センスネット",
+      "address1": "",
+      "address2": "",
+      "address3": ""
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 3,
+    "fields": {
+      "name": "Sugitoh",
+      "nickname": "株式会社 杉籐",
+      "address1": "",
+      "address2": "",
+      "address3": ""
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 4,
+    "fields": {
+      "name": "Connectil",
+      "nickname": "コネクティル",
+      "address1": "",
+      "address2": "",
+      "address3": ""
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 5,
+    "fields": {
+      "name": "Korenmolen De Zwaluw",
+      "nickname": "Korenmolen De Zwaluw",
+      "address1": "Van Echtenstraat 47",
+      "address2": "7902 EL",
+      "address3": "Hoogeveen"
+    }
+  },
+  {
+    "model": "client.client",
+    "pk": 6,
+    "fields": {
+      "name": "vinayamato",
+      "nickname": "株式会社 ビナヤマト 御中",
+      "address1": "〒141-0001",
+      "address2": "品川区北品川6丁目7-29",
+      "address3": "ガーデンシティ品川御殿山3階"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 1,
+    "fields": {
+      "name": "Outsourcing",
+      "nickname": "外注費",
+      "color": "#f79f1f"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 2,
+    "fields": {
+      "name": "Communication Costs",
+      "nickname": "通信費",
+      "color": "#a3cb38"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 3,
+    "fields": {
+      "name": "Software",
+      "nickname": "ソフト",
+      "color": "#1289a7"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 4,
+    "fields": {
+      "name": "Hardware",
+      "nickname": "ハード",
+      "color": "#d980fa"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 5,
+    "fields": {
+      "name": "books",
+      "nickname": "書籍",
+      "color": "#b53471"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 6,
+    "fields": {
+      "name": "Office supplies",
+      "nickname": "消耗品",
+      "color": "#ea2027"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 7,
+    "fields": {
+      "name": "Bank Costs",
+      "nickname": "銀行",
+      "color": "#006266"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 8,
+    "fields": {
+      "name": "Tax",
+      "nickname": "税",
+      "color": "#5758bb"
+    }
+  },
+  {
+    "model": "costtype.costtype",
+    "pk": 9,
+    "fields": {
+      "name": "Travel",
+      "nickname": "旅費",
+      "color": "#6f1e51"
+    }
+  }
+]

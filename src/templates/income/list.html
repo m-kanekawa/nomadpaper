@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %} {% load humanize %} 
+
+{% block content %}
+<div id="income_list" class="container">
+  <div class='d-flex justify-content-between'>
+    <div>
+      {% include 'component/filter.html' %}
+    </div>
+    <div>
+      <div class='label'>NET</div>
+      <div class='total'>€{{ net|floatformat:2 }}</div>
+    </div>
+    <div>
+      <div class='label'>VAT</div>
+      <div class='total'>€{{ vat|floatformat:2 }}</div>
+    </div>
+    <div>
+      <div class='label'>TOTAL</div>
+      <div class='total'>€{{ total|floatformat:2 }}</div>
+    </div>
+    <div>
+      <button class="btn btn-nomad" onclick="location.href='{% url 'income:info' 0 %}'">
+        <i class="fas fa-plus"></i> add
+      </button>
+    </div>
+  </div>
+
+  <table class="table border">
+    {% for o in object_list %}
+    <tr>
+      <td>{{ o.date|date:'Y-m-d' }}</td>
+      <td>{{ o.number }}</td>
+      <td>{{ o.client.name }}</td>
+      {% if o.currency == 1 %}
+      <td class="text-end">
+        {{ o.get_currency_display }}{{ o.total|floatformat:2|intcomma }}
+      </td>
+      <td class="text-end"></td>
+      {% else %}
+      <td class="text-end">
+        {% if o.total > 0 %} €{{ o.total|floatformat:2 }}{% endif %}
+      </td>
+      <td class="text-end">
+        ({{ o.get_currency_display }}{{ o.local_total|floatformat:o.digit|intcomma }}) 
+      </td>
+      {% endif %}
+      <td>
+        <button class="btn btn-badge" style='background-color:{{ o.status|status_color }};' onclick="location.href='{% url 'income:status' o.pk %}'">{{ o.get_status_display }}</button>
+      </td>
+      <td><div class="text-end">
+        <button class="btn btn-nomad" onclick="location.href='{% url 'income:info' o.pk %}'"><i class="fas fa-info-circle"></i> info</button>
+        <button class="btn btn-nomad" onclick="location.href='{% url 'income:detail' o.pk %}'"><i class="fas fa-edit"></i> detail</button>
+        <button class="btn btn-nomad" onclick="location.href='{% url 'income:pdf' o.pk %}'"><i class="far fa-file-pdf"></i> PDF</button>
+      </div></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}
+
+
+{% block script %}
+  <script src="{% static "js/nomad_filter.js" %}"></script>
+{% endblock %}

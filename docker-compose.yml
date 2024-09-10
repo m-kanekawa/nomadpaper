@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  nomadpaper-nginx:
+    image: nginx:1.25
+    container_name: "nomadpaper-nginx"
+    depends_on:
+      - nomadpaper-django
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./docker/nginx/uwsgi_params:/etc/nginx/uwsgi_params
+      - ./log:/www/log
+      - ./src:/www/html
+    environment:
+      TZ: 'Europe/Amsterdam'
+    ports:
+      - 8999:80
+
+  nomadpaper-django:
+    image: python:3.9.6
+    container_name: 'nomadpaper-django'
+    volumes:
+      - ./src:/www/html
+      - ./log:/www/log
+      - ./data:/data
+    working_dir: /www/html/
+    environment:
+      PYTHONUUNBUFFERED: 1
+    expose:
+      - 5178
+    command: >
+      sh -c "
+      echo pip install --upgrade pip && 
+      pip install -r requirement.txt &&
+      uwsgi --socket :5178 --module nomadpaper.wsgi --py-autoreload 1 --logto /www/log/uwsgi.log
+      "

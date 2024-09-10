@@ -1,0 +1,160 @@
+/* -------------- base / 共通 -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=M+PLUS+Rounded+1c&display=swap');
+:root {
+  --title-font: "Cherry Swash", "Rounded Mplus 1c", sans-serif;
+  --nav-bg-color: #4093d4;
+  --body-text-color: #606060;
+  --doc-border-color: #22ac8a;
+}
+body {
+  font-family: "Rounded Mplus 1c", "Noto Sans JP", sans-serif;
+  padding-top: 70px;
+  color: var(--body-text-color);
+  font-size: 12pt;
+}
+.app-title {
+  font-family: "Cherry Swash", sans-serif;
+  font-weight: normal;
+  color: white
+}
+.mk-nav {
+  background-color: var(--nav-bg-color);
+}
+.navbar {
+  font-size: 20pt !important;
+}
+.nav-link{
+  padding: 0;
+}
+.caption{
+  font-size: 10pt !important;
+  color: white !important;
+}
+
+.btn-nomad {
+  border-color: var(--nav-bg-color);
+  border-width: 2px;
+  color: var(--nav-bg-color);
+}
+.btn-nomad:hover, .btn-nomad:focus, 
+.btn-nomad:active, .btn-nomad:active:focus, .btn-nomad:active:hover, .btn-nomad:active.focus,
+.btn-nomad.active, .btn-nomad.active:focus, .btn-nomad.active:hover, .btn-nomad.active.focus,
+.open > .dropdown-toggle.btn-nomad, 
+.open > .dropdown-toggle.btn-nomad:hover,
+.open > .dropdown-toggle.btn-nomad:focus, 
+.open > .dropdown-toggle.btn-nomad.focus,
+.btn-nomad.disabled:hover, .btn-nomad[disabled]:hover, fieldset[disabled] .btn-nomad:hover,
+.btn-nomad.disabled:focus, .btn-nomad[disabled]:focus, fieldset[disabled] .btn-nomad:focus,
+.btn-nomad.disabled.focus, .btn-nomad[disabled].focus, fieldset[disabled] .btn-nomad.focus {
+  border-color: var(--nav-bg-color);
+  background-color: var(--nav-bg-color);
+  color: white;
+}
+
+input{
+  width: 100%;
+}
+
+/* 支出 */
+#out_update #dragDropArea{
+  background-color: #f4f4f4;
+  margin: 10px;
+  padding: 30px 10px;
+  border: #ddd dashed 5px;
+  min-height: 400px;
+  text-align: center;
+  height: 850px;
+}
+#out_update #dragDropArea p{
+    color: #999;
+    font-weight: bold;
+    font-size: 14px;
+    font-size: 1.4em;
+}
+#out_update #dragDropArea .drag-drop-buttons{
+    margin-top: 20px;
+    font-size: 12px;
+    font-size: 1.2em;
+}
+#out_update .drag-drop-buttons input{
+    margin: auto;
+}
+#out_update #previewImage{
+  width: 100%;
+  min-height: 800px;
+  overflow-y: scroll;
+  object-fit: contain;
+}
+
+/* 収入 */
+#income_list .label, #out_list .label{
+  font-size: 10pt;
+}
+#income_list .total, #out_list .total{
+  color: var(--doc-border-color);
+  font-weight: bold;
+}
+
+#income_list .btn-badge{
+  border: none;
+  color: white
+}
+
+#income_detail .document{
+  position: relative;
+	display: block;
+	background-color: #fff;
+  max-width: 1020px;
+	border: 3px solid rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  padding: 20px;
+}
+#income_detail .my_info{
+  text-align: end;
+  border-right: 3px solid var(--doc-border-color);
+  padding-right: 10px;
+  font-size: 10pt;
+}
+#income_detail .company_name{
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#income_detail .income_info{
+  margin: 20px 0;
+}
+#income_detail .client_info{
+  border-left: 3px solid var(--doc-border-color);
+  padding-left: 10px;
+  margin: 0;
+}
+#income_detail .client_name{
+  font-size: 14pt;
+  font-weight: bold;
+}
+#income_detail .income_date{
+  text-align: end;
+  border-right: 3px solid var(--doc-border-color);
+  padding-right: 10px;
+  margin: 0;
+}
+#income_detail .income_detail{
+  border-left: 3px solid var(--doc-border-color);
+}
+#income_detail .line_title{
+  font-size: 10pt;
+  color: var(--doc-border-color);
+}
+
+#vat_update th{
+  padding-top: 20px;
+}
+#vat_update .item{
+  width: 700px;
+}
+#vat_update .total, #vat_update .btw{
+  width: 80px;
+}
+#vat_update .no_support{
+  color: lightgray;
+}

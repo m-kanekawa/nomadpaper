@@ -1,0 +1,13 @@
+
+<input 
+  name="{{ widget.name }}" 
+  id="id_{{ widget.name }}" 
+  type="color"
+  list="colorList"
+  value="{{ widget.default_color }}"
+>
+  <datalist id="colorList">
+    {% for a, b in widget.choices %}
+    <option>{{ a }}</option>
+    {% endfor %}
+  </datalist>

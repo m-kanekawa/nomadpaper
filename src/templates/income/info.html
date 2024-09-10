@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %}
+
+{% block content %}
+<div id="income_info" class="container">
+  <form method="post">
+    {% csrf_token %}
+    <table class="table table-borderless">
+      {{ form.as_table }}
+    </table>
+
+    <button type="submit" disabled style="display: none;"></button>
+    <button type="button" class="btn btn-nomad" onclick="submit();">
+      <span><i class="fas fa-paper-plane"></i></span>
+      <span>save</span>
+    </button>
+  </form>
+</div>
+{% endblock %}

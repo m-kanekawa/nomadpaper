@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load static %}
+{% load order_tag %}
+
+{% block content %}
+  <div id="income_detail">
+    <form method="post" onsubmit="return false;">
+      {% csrf_token %}
+      <div class="document">
+        <div class="my_info">
+          <div class='company_name'>{{ info.company_name }}</div>
+          <div>{{ info.address1 }}</div>
+          <div>{{ info.address2 }}</div>
+          <div>{{ info.address3 }}</div>
+          <div>BTW: {{ info.btw }}</div>
+          <div>KVK: {{ info.kvk }}</div>
+          <div>Bank: {{ info.bank }}</div>
+        </div>
+
+        <div class="row gx-0 income_info">
+          <div class="col">
+            <div class="client_info">
+              <div class='client_name'>{{ client.nickname }}</div>
+              <div>{{ client.address1 }}</div>
+              <div>{{ client.address2 }}</div>
+              <div>{{ client.address3 }}</div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="income_date">
+              <div class="input-group">
+                <span class="input-group-text w-50">Document No</span>
+                <input type="text" value="{{ in.number }}" class="form-control" name="number" id="id_number">
+              </div>
+              <div class="input-group">
+                <span class="input-group-text w-50">Document Date</span>
+                <input type="date" value="{{ in.date|date:'Y-m-d' }}" class="form-control" name="date" id="id_date">
+              </div>
+              <div class="input-group">
+                <span class="input-group-text w-50">Paydue</span>
+                <input type="date" value="{{ in.paydue|date:'Y-m-d' }}" class="form-control" name="paydue" id="id_paydue">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="income_detail">
+          {% include "income/line.html" %}
+        </div>
+
+        <textarea name="memo" cols="40" rows="5" maxlength="300" class="form-control" id="id_memo">{{ in.memo }}</textarea>
+
+        <button type="submit" class="btn btn-nomad" onclick="submit();">
+          <span>
+            <i class="fas fa-paper-plane"></i>
+          </span>
+          <span>save</span>
+        </button>
+
+      </div>
+    </form>
+  </div>
+{% endblock %}
+
+{% block script %}
+  <script type="text/javascript">
+    const tax_rates = {{ tax_rates | safe }};
+    const currency_display = "{{ in.get_currency_display }}"
+    const digit = "{{ in.digit }}"
+  </script>
+  <script src="{% static "js/nomad_in_detail.js" %}"></script>
+{% endblock %}

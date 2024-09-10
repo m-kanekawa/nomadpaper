@@ -1,0 +1,77 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %}
+
+{% block content %}
+  <div id="out_list" class="container">
+    <div class='d-flex justify-content-between'>
+      <div>
+        {% include 'component/filter.html' %}
+      </div>
+      <div>
+        <div class='label'>NET</div>
+        <div class='total'>€{{ net|floatformat:2 }}</div>
+      </div>
+      <div>
+        <div class='label'>VAT</div>
+        <div class='total'>€{{ vat|floatformat:2 }}</div>
+      </div>
+        <div>
+        <div class='label'>TOTAL</div>
+        <div class='total'>€{{ total|floatformat:2 }}</div>
+      </div>
+      <div>
+        <button class="btn btn-nomad" onclick="location.href='{% url 'out:update' 0 %}'">
+          <i class="fas fa-plus"></i> add
+        </button>
+      </div>
+    </div>
+
+    <table class="table border">
+      {% for o in object_list %}
+        <tr>
+          <td>{{ o.date_paid|date:'Y-m-d' }}</td>
+          <td>{{ o.title }}</td>
+          <td>
+            <span class="badge" style="background-color: {{ o.cost_type.color }};">{{ o.cost_type.nickname }}</span>
+          </td>
+          <td class="text-end">€{{ o.total|floatformat:2 }}</td>
+          <td>
+            <div class="text-end">
+              <button class="btn btn-nomad" onclick="location.href='{% url 'out:update' o.pk %}'"><i class="fas fa-edit"></i>edit</button>
+              <button type="button" class="btn btn-nomad" data-bs-toggle="modal" data-bs-target="#modalRemove" data-pk="{{o.pk}}" data-name="{{o.title}}" id="btn_modal_{{o.pk}}"><i class="fas fa-trash-alt"></i>delete</button>
+            </div>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+{% endblock %}
+
+{% block modal %}
+<div class="modal_wrapper">
+  <form action="{% url 'out:delete' 0 %}" method="post" id="form_delete">
+    {% csrf_token %}
+    <div class="modal fade" id="modalRemove" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">支出の削除</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>支出「<span id="span_name"></span>」を削除します。よろしいですか？</p>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger">削除する</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div><!-- .modal_wrapper -->
+{% endblock %}
+
+{% block script %}
+<script src="{% static "js/nomad_delete.js" %}"></script>
+<script src="{% static "js/nomad_filter.js" %}"></script>
+{% endblock %}

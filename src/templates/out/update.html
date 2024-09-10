@@ -1,0 +1,94 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %} 
+
+{% block content %}
+<div id="out_update" class="container">
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %} 
+    <input type="hidden" name="vat21" value="{{ form.vat21.value }}" id="id_vat21">
+    <input type="hidden" name="vat9" value="{{ form.vat9.value }}" id="id_vat9">
+
+    <div class='row'>
+      <div class='col-4'>
+        <table class="table table-borderless">
+          <tr>
+            <th><label for="id_date">Date Paid:</label></th>
+            <td>{{ form.date_paid }}</td>
+          </tr>
+          <tr>
+            <th><label for="id_title">Title:</label></th>
+            <td>{{ form.title }}</td>
+          </tr>
+          <tr>
+            <th><label for="id_cost_type">Cost Type:</label></th>
+            <td>{{ form.cost_type }}</td>
+          </tr>
+          <tr>
+            <th><label for="id_tax_rate">Tax Rate:</label></th>
+            <td>{{ form.tax_rate }}</td>
+          </tr>
+          <tr>
+            <th><label for="id_net">Net (€):</label></th>
+            <td><input type="text" name="net" value="{{ form.net.value|floatformat:2 }}" class="form-control" required id="id_net"></td>
+          </tr>
+          <tr>
+            <th><label for="id_vat">VAT (€):</label></th>
+            <td><input type="text" name="vat" value="{{ form.vat.value|floatformat:2 }}" class="form-control" required readonly id="id_vat"></td>
+          </tr>
+          <tr>
+            <th><label for="id_total">Total (€):</label></th>
+            <td><input type="text" name="total" value="{{ form.total.value|floatformat:2 }}" class="form-control" required id="id_total"></td>
+          </tr>
+          <tr>
+            <th><label for="id_cost_type">Region:</label></th>
+            <td>{{ form.region }}</td>
+          </tr>
+          <tr>
+            <th><label for="id_memo">Memo:</label></th>
+            <td>{{ form.memo }}</td>
+          </tr>
+        </table>
+        
+        <div class="text-end">
+          <button type="submit" disabled style="display: none;"></button>
+          <button type="button" class="btn btn-nomad" onclick="submit();">
+            <span><i class="fas fa-paper-plane"></i></span>
+            <span>save</span>
+          </button>
+        </div>
+      </div>
+
+      <div class='col-8 border rounded'>
+        {% if out.reciept %}
+        <div id="dragDropArea" style="display: none;">
+        {% else %}
+        <div id="dragDropArea">
+        {% endif %}
+          <div class="drag-drop-inside">
+            <p class="drag-drop-info">Drop a file here.</p>
+            <p>Or</p>
+            <p class="drag-drop-buttons">
+              <input id="id_reciept" type="file" name="reciept" onChange="preview(event)">
+            </p>
+          </div>
+        </div>
+
+        {% if out.reciept %}
+        <div id="previewArea">
+          <iframe src="{{ out.reciept.url }}" id="previewImage"></iframe>
+        {% else %}
+        <div id="previewArea" style="display: none;">
+          <iframe src="" id="previewImage"></iframe>
+        {% endif %}
+          <div class="text-end">
+            <button type="button" class="btn btn-sm btn-nomad" onclick="removeImage();"><i class="fas fa-trash-alt"></i> remove</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="{% static "js/nomad_out_update.js" %}"></script>
+{% endblock %}

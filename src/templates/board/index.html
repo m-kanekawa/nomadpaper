@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% load static %} {% load order_tag %} 
+
+{% block content %}
+<div id="board_index" class="container">
+  <table class="table border">
+    <tr><th>Year</th><th>In</th><th>Out</th></tr>
+    {% for d in data %}
+    <tr><td>{{ d.year }}</td><td>€{{ d.in|floatformat:2 }}</td><td>€{{ d.out|floatformat:2 }}</td></tr>
+    {% endfor %}
+    <tr><td>Total</td><td>€{{ in_total|floatformat:2 }}</td><td>€{{ out_total|floatformat:2 }}</td></tr>
+  </table>
+</div>
+{% endblock %}
