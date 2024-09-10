@@ -27,3 +27,9 @@ $ docker-compose up -d
 ```
 
 access localhost:8999/
+
+
+## What prompted me to develop this software?
+
+I'd been using [Gekko](https://www.getgekko.com/nl/) for years,
+but I was not satisfied with the display of invoice for Japanese customers -- normally YEN is written as ¥10,000 but Gekko writes it like ¥10,000.00 --
