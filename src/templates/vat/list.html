@@ -5,7 +5,7 @@
   <div><a href='{% url 'vat:create' next.year next.q %}'><i class="fas fa-plus-circle"></i> new report for {{next.year}} Q{{ next.q }}</a></div>
 
   {% for o in object_list %}
-  <div><a href='{% url 'vat:create' o.year o.q %}'>report for {{ o.year }} Q{{ o.q }}</a></div>
+  <div><a href='{% url 'vat:create' o.year o.q %}'>report for {{ o.year }} Q{{ o.q }}</a> <a href='{% url 'vat:delete' o.year o.q %}'><i class="fas fa-trash-alt"></a></i></div>
   {% endfor %}
 </div>
 {% endblock %}

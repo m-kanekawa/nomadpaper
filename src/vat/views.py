@@ -81,8 +81,12 @@ class VatCreateView(TemplateView):
       b4a = t4a * 0.21
       t4b = Out.objects.filter(region=2, date_paid__range=(start_date, end_date)).aggregate(r=Sum('net'))['r'] or 0
       b4b = t4b * 0.21
-      b5a = Out.objects.filter(~Q(region=1), date_paid__range=(start_date, end_date)).aggregate(r=Sum('vat'))['r'] or 0
-      b5b = Out.objects.filter(date_paid__range=(start_date, end_date)).aggregate(r=Sum('vat'))['r'] or 0
+
+      t5a = Out.objects.filter(~Q(region=1), date_paid__range=(start_date, end_date)).aggregate(r=Sum('net'))['r'] or 0
+      b5a = t5a * 0.21
+
+      t5b_region1 = Out.objects.filter(region=1, date_paid__range=(start_date, end_date)).aggregate(r=Sum('vat'))['r'] or 0
+      b5b = t5b_region1 + b5a
       b5c = b5g = math.ceil(b5a) - math.ceil(b5b)
   
       data = {
@@ -131,3 +135,9 @@ class VatCreateView(TemplateView):
     vat.btw_5_g  = float(request.POST["b5g"])
     vat.save()
     return redirect('vat:list')
+
+
+def delete(request, year, q):
+  logger.debug("delete year = " + str(year) + ' q = ' + str(q))
+  obj = VatReport.objects.filter(year=year, q=q).delete()
+  return redirect('vat:list')
