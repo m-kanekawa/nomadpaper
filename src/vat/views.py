@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 
 class VatListView(ListView):
   model = VatReport
+  ordering = ['-year', '-q'] 
   template_name = "vat/list.html"
   success_url = reverse_lazy('vat:list')
 
